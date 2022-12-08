@@ -1,2 +1,2 @@
 #!/bin/bash
-alias c="CFILE"
+export c="$CFILE"
