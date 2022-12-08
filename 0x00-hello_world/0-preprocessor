@@ -1,2 +1,2 @@
 #!/bin/bash
-export c="CFILE"
+gcc -E $CFILE >> c
