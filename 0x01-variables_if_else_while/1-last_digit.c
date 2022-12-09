@@ -1,12 +1,12 @@
-}#include <stdio.h>
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 
 /**
- *  * main - Entry point
- *   *
- *    * Return: Always 0 (Successful)
- *     */
+ * main - Entry point
+ *
+ * Return: Always 0 (Successful)
+ */
 
 int main(void)
 {
