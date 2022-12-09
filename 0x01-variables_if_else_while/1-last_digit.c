@@ -10,7 +10,6 @@
 
 int main(void)
 {
-
 	int n, last_digit;
 
 	srand(time(0));
@@ -33,7 +32,6 @@ int main(void)
 				printf("%d and is less than 6 and not 0\n", n);
 			}
 		}
-
 
 	return (0);
 }
