@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 /**
- * abs - prints the absolute of an integer
+ *_ abs - prints the absolute of an integer
  * @n: the int to check
- * Returns the absolute of a given interger
+ * Return: the absolute of a given interger
  */
 
 int _abs(int n)
