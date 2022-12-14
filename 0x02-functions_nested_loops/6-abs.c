@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- *_ abs - prints the absolute of an integer
+ * _abs - prints the absolute of an integer
  * @n: the int to check
  * Return: the absolute of a given interger
  */
