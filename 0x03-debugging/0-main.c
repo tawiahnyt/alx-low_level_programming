@@ -9,8 +9,6 @@ int main(void)
 {
 	int i;
 
-	i = 98;
-
 	if (i == 0)
 	{
 		printf("%d is Zero", i);
