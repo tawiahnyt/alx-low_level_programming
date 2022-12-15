@@ -5,17 +5,14 @@
  * Return: 0
  */
 
-int main(void)
-{
-	int i;
-
+void positive_or_negative(int i)
 	if (i == 0)
 	{
 		printf("%d is Zero", i);
 	}
 	else
 	{
-		positive_or_negative(i);
+		printf("%d", i);
 	}
 
 	return (0);
