@@ -11,7 +11,14 @@ int main(void)
 
 	i = 98;
 
-	positive_or_negative(i);
+	if (i == 0)
+	{
+		printf("%d is Zero", i);
+	}
+	else
+	{
+		positive_or_negative(i);
+	}
 
 	return (0);
 }
