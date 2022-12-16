@@ -6,15 +6,6 @@
  * Return: void
  */
 
-void print_most_numbers(void);
-
-int main() 
-{
-	print_most_numbers();
-
-	return (0);
-}
-
 void print_most_numbers(void)
 {
 	int i;
