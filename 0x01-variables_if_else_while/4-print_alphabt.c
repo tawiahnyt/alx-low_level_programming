@@ -1,10 +1,13 @@
 #include <stdio.h>
+/** more headers go there */
 
 /**
  * main - Entry point
  *
  * return: Always 0 (Success)
  */
+
+/** betty style doc for function goes there */
 
 int main(void)
 {
