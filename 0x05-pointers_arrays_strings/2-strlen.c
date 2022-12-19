@@ -5,6 +5,8 @@
  *
  * @s: the string to be returned
  *
+ * Return: the length of a string
+ *
  */
 
 
