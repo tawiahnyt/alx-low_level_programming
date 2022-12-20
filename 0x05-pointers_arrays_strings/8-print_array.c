@@ -4,8 +4,9 @@
 /**
  * print_array - prints n element of array
  *
- * @n: number of elements of array to ve printed
+ * @n: number of elements of array to be printed
  *
+ * @a: the array to print
  */
 
 void print_array(int *a, int n)
@@ -22,7 +23,8 @@ void print_array(int *a, int n)
 		}
 		else
 		{
-			printf("%d\n", j);
+			printf("%d", j);
 		}
 	}
+	printf("\n");
 }
