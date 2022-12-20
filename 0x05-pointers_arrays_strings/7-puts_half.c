@@ -7,7 +7,7 @@
  *
  */
 
-void puts2(char *str)
+void puts_half(char *str)
 {
 	int i, n, length;
 
