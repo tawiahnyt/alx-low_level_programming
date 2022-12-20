@@ -10,20 +10,20 @@
 
 void rev_string(char* s)
 {
-	int len, i;
-	char *start, *end, ch;
+	int len, count, end;
+	char beg;
 
-	len = strlen(s);
-	start = s;
-	end = s + len - 1;
+	len = 0;
 
-	for (i = 0; i < (len - 1) / 2; i++) {
+	while (s[len] != '\0')
+		len++;
+	len--;
 
-		ch = *end;
-		*end = *start;
-		*start = ch;
-
-		start++;
-		end--;
+	for (count = 0; count <= len / 2; count++)
+	{
+		beg = s[count];
+		end = s[len - count];
+		s[count] = end;
+		s[len - count] = beg;
 	}
 }
