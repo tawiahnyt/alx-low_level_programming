@@ -3,9 +3,9 @@
 /**
  * _strcat - appends two strings together
  *
- * @dest: destinaiton string
+ * @dest: string to append 
  *
- * @src: source string
+ * @src: string to add
  *
  */
 
