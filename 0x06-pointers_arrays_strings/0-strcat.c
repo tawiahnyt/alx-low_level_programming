@@ -3,9 +3,9 @@
 /**
  * _strcat - appends two strings together
  *
- * @dest: a pointer pointing to a string
+ * @dest: destinaiton string
  *
- * @src: another pointer pointing to another string
+ * @src: source string
  *
  */
 
