@@ -6,26 +6,28 @@
  * @src: source string
  * @n: number of bytes of string to concatenate
  *
- * Return: a pointer to the resulting string dset
+ * Return: a pointer to the resulting string dest
  *
  */
 
 char *_strncat(char *dest, char *src, int n)
 {
-	int length, i;
+	int i, j;
 
-	length = 0;
+	i = 0;
+	j = 0;
 
-	while (dest[length] != '\0')
+	while (dest[i] != '\0')
+		i++;
+
+	while (src[j] != '\0' && j < n)
 	{
-		length++;
+		dest[i] = src[j];
+		i++;
+		j++;
 	}
 
-	for (i = 0; i < n && src[i] != '\0'; i++)
-	{
-		dest[length + i] = src[i];
-	}
-	dest[length + i] = '\0';
+	dest[i] = '\0';
 
-	return dest;
+	return (dest);
 }
