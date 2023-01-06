@@ -7,7 +7,7 @@
  *
  */
 
-void _print_rev_recursion(car *s)
+void _print_rev_recursion(char *s)
 {
 	if (*s != '\0')
 	{
