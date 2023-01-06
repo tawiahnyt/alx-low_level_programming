@@ -13,5 +13,5 @@ void _puts_recursion(char *s)
 	{
 		;
 	}
-	prinft("%s\n", s)
+	prinft("%s\n", s);
 }
