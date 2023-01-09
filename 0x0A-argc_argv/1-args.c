@@ -6,7 +6,7 @@
  * @argc: argument counter
  * @argv: argumetn vector
  *
- * Retrun: 0
+ * Retrun: Return, always successful
  */
 
 int main(int argc, char *argv[])
