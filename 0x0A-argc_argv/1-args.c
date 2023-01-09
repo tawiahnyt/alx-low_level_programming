@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * args - prints numbers of arguments passed into it
+ * main - prints numbers of arguments passed into it
  *
  * @argc: argument counter
  * @argv: argumetn vector
@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
 {
 	(void)argv;
 
-	printf("%d\n", argc - 1);
+	printf("%d\n", (argc - 1));
 
 	return (0);
 }
