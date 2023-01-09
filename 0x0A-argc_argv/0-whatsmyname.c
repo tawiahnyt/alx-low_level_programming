@@ -3,6 +3,9 @@
 /**
  * main - prints it's name, followed by a newline
  *
+ * @argc: argument counter
+ * @argv: argumwnt vector
+ *
  * Return: Successful
  */
 
